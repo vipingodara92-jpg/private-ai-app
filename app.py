@@ -5,7 +5,7 @@ from groq import Groq
 app = Flask(__name__)
 
 # Groq API Client setup (Render ke Environment Variable se key uthayega)
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+client = Groq(api_key=os.environ.get("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"))
 
 # Frontend HTML / UI (Ekdum clean aur responsive chat screen)
 HTML_PAGE = """
